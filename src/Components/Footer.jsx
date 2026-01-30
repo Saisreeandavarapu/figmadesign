@@ -2,8 +2,8 @@ import { memo } from 'react';
 
 const Footer = () => {
   return (
-    <div>
-      <h2>Footer</h2>
+    <div className='h-5 bg-black/80'>
+     
     </div>
   );
 };
