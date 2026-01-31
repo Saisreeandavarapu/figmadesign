@@ -2,7 +2,7 @@ import { memo } from "react";
 
 const Hero = () => {
   return (
-    <section className="relative max-w-full  min-h-screen bg-[url('/image1.png')] bg-cover bg-center">
+    <section className="relative max-w-full sm:w-full  min-h-screen bg-[url('/image1.png')] bg-cover bg-center">
       
       
       <div className="absolute inset-0 bg-black/50" />

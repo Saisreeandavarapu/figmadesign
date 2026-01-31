@@ -5,14 +5,14 @@ const Projects = () => {
   return (
     <div>
      <Heading name="PROJECTS"/>
-     <section className='bg-[url("/image4.png")] bg-center bg-cover w-full h-[540px]'>
-        <div className='text-8xl text-white/80 text-center pt-28'>
+     <section className='bg-[url("/image4.png")] bg-center bg-cover w-full h-auto'>
+        <div className='xl:text-8xl text-white/80 text-center xl:pt-28 sm:text-2xl p-10'>
             "Your satisfaction drives us; <br />
 we build relationships as we build structures."
         </div>
      </section>
      <Heading name="OUR CURRENT PROJECTS"/>
-     <section className='bg-white flex justify-evenly w-full h-[550px] pt-20'>
+     <section className='bg-white xl:flex xl:justify-evenly w-full h-auto pt-20  sm:grid sm:grid-cols-1 p-25'>
          <div className='w-[300px] h-[450px] relative'>
             <img src="/image copy 23.png" alt="" />
             <div className='border-[1px] text-center  text-3xl h-13 text-[#2C4D60] rounded-md mt-5 p-1'>
@@ -62,10 +62,10 @@ we build relationships as we build structures."
            
         </div>
      </section>
-     <section className='ps-70'>
-        <div className='text-center max-w-3/4 mt-20'>
-            <span className='text-[#04315A] text-4xl font-semibold border-b-2'>Our Journey</span>
-            <div className='text-lg text-[#04315A] mt-10'>
+     <section className='xl:ps-70 ps-20'>
+        <div className='text-center max-w-3/4 xl:mt-20 mt-10 '>
+            <span className='text-[#04315A] xl:text-4xl font-semibold border-b-2 text-2xl'>Our Journey</span>
+            <div className='text-lg text-[#04315A] xl:mt-10'>
                 Our journey began a decade ago with a vision to redefine construction practices and set new benchmarks for quality, efficiency, and sustainability. Over the years, we have evolved, adapted, and grown, always striving to exceed expectations.
             </div>
         </div>
@@ -92,22 +92,22 @@ we build relationships as we build structures."
               </ul>
             </div>
         </div>
-        <div className='text-center max-w-3/4 mt-10'>
+        <div className='text-center max-w-3/4 mt-10 '>
             <span className='text-[#04315A] text-4xl font-semibold border-b-2'>Our Future</span>
             <div className='text-lg text-[#04315A] mt-10'>
                 As we move forward, our commitment to excellence remains steadfast. We look to the future with optimism and determination, ready to take on new challenges and continue building a better world.
             </div>
         </div>
-        <div className='text-4xl font-semibold  text-[#04315A] pr-60 pt-10 text-center leading-12'>
+        <div className='xl:text-4xl font-semibold  text-[#04315A] xl:pr-60 xl:pt-10  text-center xl:leading-12 text-lg pt-5 pr-15'>
             Join us on our journey to build the future, one project at a time.
 Thank you for considering Nithish Infracon Pvt Ltd for your construction needs.
         </div>
      </section>
      <Heading name="OUR UPCOMING PROJECTS"/>
      <section className='bg-white'>
-        <div className='bg-[url("/image5.png")] bg-cover bg-center w-full h-screen flex justify-around mt-15'>
-            <img src="/image copy 27.png" alt="" className='w-[626px] h-[358px] rounded-sm mt-20' />
-       <img src="/image copy 28.png" alt="" className='w-[626px] h-[358px] rounded-sm mt-90 ' />
+        <div className='bg-[url("/image5.png")] bg-cover bg-center w-full h-auto xl:flex xl:justify-around mt-15 sm:grid sm:grid-cols-1'>
+            <img src="/image copy 27.png" alt="" className='w-[626px] h-[358px] rounded-sm mt-20 p-10 ' />
+       <img src="/image copy 28.png" alt="" className='w-[626px] h-[358px] rounded-sm xl:mt-90 mt-10 p-10' />
         </div>
 
      </section>
