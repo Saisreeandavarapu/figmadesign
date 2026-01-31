@@ -12,7 +12,7 @@ const Home = () => {
     <Services/>
      <Heading name="SUCCESS GROWTH"/>
      <section className='w-full  bg-white sm:h-auto h-auto '>
-        <div className='grid lg:grid-cols-5 pt-10 sm:grid-cols-1 p-20'>
+        <div className='grid xl:grid-cols-5 pt-10 sm:grid-cols-1 p-20 md:grid-cols-2 lg:grid-cols-3'>
         <div className='w-[250px] h-[250px] rounded-full bg-[linear-gradient(180deg,#3490DA_0%,#1C4D74_100%)] relative m-10 '>
         <img src="image copy 7.png" alt="" className='w-[74px] h-[76px] absolute top-15 left-24'/>
         <div className='text-white font-semibold text-xl  absolute top-35 left-20'>
@@ -51,28 +51,28 @@ QUALITY
     <Heading name="EXPERTISE PROJECTS"/>
     <section className='w-full h-auto bg-white lg:flex lg:justify-around grid sm:grid-cols-1'>
           <img src="image copy 6.png" alt="" className='w-[626px] h-[418px]  p-10' />
-     <img src="image copy 8.png" alt="" className='w-[626px] h-[418px]  p-10' />
+     <img src="image copy 8.png" alt="" className='w-[626px] h-[418px]  p-10 md:ms-80' />
     </section>
    <Heading name="GET A QUOTE"/>
-   <section className='w-full h-auto xl:flex xl:justify-around xl:items-center sm:grid sm:grid-cols-1'>
+   <section className='w-full h-auto xl:flex xl:justify-around xl:items-center sm:grid sm:grid-cols-1 '>
     <div>
     <div className='xl:text-4xl text-center sm:text-xl md:text-2xl lg:text-4xl mt-10'>
         We are expert in this field <br />
 since almost 10 years.
 
     </div>
-    <div className='xl:flex xl:justify-around xl:gap-10 mt-5 sm:grid sm:grid-cols-1'>
-        <img src="image copy 13.png" alt="" className='w-[316px] h-[163px] m-10' />
-         <img src="image copy 14.png" alt="" className='w-[316px] h-[163px] m-10' />
+    <div className='xl:flex xl:justify-around xl:gap-10  sm:grid sm:grid-cols-1 md:grid-cols-2 p-10'>
+        <img src="image copy 13.png" alt="" className='w-[316px] h-[163px] m-5' />
+         <img src="image copy 14.png" alt="" className='w-[316px] h-[163px] m-5' />
         
     </div>
-    <div className='xl:flex xl:justify-around xl:gap-10 mt-5 sm:grid sm:grid-cols-1'>
-        <img src="image copy 15.png" alt="" className='w-[316px] h-[163px] m-10' />
-         <img src="image copy 16.png" alt="" className='w-[316px] h-[163px] m-10' />
+    <div className='xl:flex xl:justify-around xl:gap-10  sm:grid sm:grid-cols-1 p-10 md:grid-cols-2'>
+        <img src="image copy 15.png" alt="" className='w-[316px] h-[163px] m-5 ' />
+         <img src="image copy 16.png" alt="" className='w-[316px] h-[163px] m-5' />
         
     </div>
     </div>
-    <div className='w-[500px] h-[440px] bg-[#2C4D60] p-15 rounded-2xl text-center '>
+    <div className='xl:w-[500px] xl:h-[440px] bg-[#2C4D60] p-15 xl:mt-40 mt-0 rounded-2xl text-center w-[400px] h-[400px] m-13 md:w-[700px]'>
         <div className='flex gap-2 '>
             <input type="text" placeholder='First Name' className='border-2 border-[#d9d9d9] text-[#d9d9d9] w-full h-10 px-5 rounded-md' />
              <input type="text" placeholder='Last Name' className='border-2 border-[#d9d9d9] text-[#d9d9d9] w-full h-10 px-5 rounded-md' />

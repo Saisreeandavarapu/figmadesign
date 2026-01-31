@@ -16,7 +16,7 @@ const About = () => {
      </section>
      <Heading name="OUR PROMISE"/>
      <section className='bg-[url("image2.png")] w-full h-auto bg-cover bg-center'>
-   <div className='xl:flex xl:justify-around items-center pt-20 grid sm:grid-cols-1'>
+   <div className='xl:flex xl:justify-around items-center pt-20 grid sm:grid-cols-1 md:grid-cols-2'>
     <div className='w-[310px] h-[427px] border-[1px] rounded-xl shadow-2xl border-gray-400 bg-white m-20'>
             <img src="image copy 18.png" alt="" />
             <div className='bg-[#def1ff] text-center font-medium text-lg p-1'>
@@ -67,26 +67,26 @@ const About = () => {
      <Heading name="OUR TEAM"/>
      <section className='bg-white'>
       <div className=' w-full h-auto bg-[url("/image3.png")] bg-center bg-cover'>
-      <div className='xl:flex xl:justify-around pt-15 '>
+      <div className='xl:flex xl:justify-around pt-15 grid md:grid-cols-2  grid-cols-1'>
       <div className='relative p-10'>
         <img src="/image copy 22.png" alt="" className='w-[500px] h-[500px] '/>
-        <div className='w-[354px] h-[87px] bg-[#004d59] rounded-md absolute top-113 left-25 text-center'>
+        <div className='xl:w-[354px] xl:h-[87px] bg-[#004d59] rounded-md absolute top-113 left-25 text-center w-[300px]'>
          <div className='text-white font-bold text-4xl'>Andrew J</div> 
          <div className='text-white text-2xl'>Managing Director</div>
         </div>
       </div>
       <div className='relative p-10'>
         <img src="/image copy 22.png" alt="" className='w-[500px] h-[500px] '/>
-        <div className='w-[354px] h-[87px] bg-[#004d59] rounded-md absolute top-113 left-25 text-center'>
+        <div className='xl:w-[354px] xl:h-[87px] bg-[#004d59] rounded-md absolute top-113 left-25 text-center w-[300px]'>
          <div className='text-white font-bold text-4xl'>Andrew J</div> 
          <div className='text-white text-2xl'>Managing Director</div>
         </div>
       </div>
       </div>
       <div className='text-center xl:ps-75 xl:p-60 xl:pt-10 xl:pb-0 pb-10'>
-      <div className='text-white xl:text-3xl xl:leading-10 xl:tracking-wider '>wish you success in your journey toward finding your perfect property. Whether you’re looking for your dream home, a solid investment, or a space to grow your business, </div>
-<div className='text-white xl:text-3xl font-bold xl:leading-20 xl:tracking-wider '>we are here to support you every step of the way.</div>
-<div className='text-white xl:text-3xl xl:leading-10 xl:tracking-wider '>Your trust is our greatest asset, and we are committed to delivering excellence in service, transparency, and the expertise needed to help you make the best decisions. We look forward to being part of your real estate journey!</div>
+      <div className='text-white xl:text-3xl xl:leading-10 xl:tracking-wider text-lg'>wish you success in your journey toward finding your perfect property. Whether you’re looking for your dream home, a solid investment, or a space to grow your business, </div>
+<div className='text-white xl:text-3xl font-bold xl:leading-20 xl:tracking-wider text-lg mt-5'>we are here to support you every step of the way.</div>
+<div className='text-white xl:text-3xl xl:leading-10 xl:tracking-wider text-lg mt-5'>Your trust is our greatest asset, and we are committed to delivering excellence in service, transparency, and the expertise needed to help you make the best decisions. We look forward to being part of your real estate journey!</div>
 </div>
       </div>
 

@@ -12,7 +12,7 @@ we build relationships as we build structures."
         </div>
      </section>
      <Heading name="OUR CURRENT PROJECTS"/>
-     <section className='bg-white xl:flex xl:justify-evenly w-full h-auto pt-20  sm:grid sm:grid-cols-1 p-25'>
+     <section className='bg-white xl:flex xl:justify-evenly w-full h-auto pt-20  sm:grid sm:grid-cols-1 p-25 md:grid-cols-2'>
          <div className='w-[300px] h-[450px] relative'>
             <img src="/image copy 23.png" alt="" />
             <div className='border-[1px] text-center  text-3xl h-13 text-[#2C4D60] rounded-md mt-5 p-1'>
@@ -98,7 +98,7 @@ we build relationships as we build structures."
                 As we move forward, our commitment to excellence remains steadfast. We look to the future with optimism and determination, ready to take on new challenges and continue building a better world.
             </div>
         </div>
-        <div className='xl:text-4xl font-semibold  text-[#04315A] xl:pr-60 xl:pt-10  text-center xl:leading-12 text-lg pt-5 pr-15'>
+        <div className='xl:text-4xl font-semibold  text-[#04315A] xl:pr-60 xl:pt-10  text-center xl:leading-12 text-lg pt-5 pr-15x'>
             Join us on our journey to build the future, one project at a time.
 Thank you for considering Nithish Infracon Pvt Ltd for your construction needs.
         </div>
@@ -107,7 +107,7 @@ Thank you for considering Nithish Infracon Pvt Ltd for your construction needs.
      <section className='bg-white'>
         <div className='bg-[url("/image5.png")] bg-cover bg-center w-full h-auto xl:flex xl:justify-around mt-15 sm:grid sm:grid-cols-1'>
             <img src="/image copy 27.png" alt="" className='w-[626px] h-[358px] rounded-sm mt-20 p-10 ' />
-       <img src="/image copy 28.png" alt="" className='w-[626px] h-[358px] rounded-sm xl:mt-90 mt-10 p-10' />
+       <img src="/image copy 28.png" alt="" className='w-[626px] h-[358px] rounded-sm xl:mt-90 mt-10 p-10 md:ms-80' />
         </div>
 
      </section>

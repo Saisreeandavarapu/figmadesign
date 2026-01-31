@@ -5,7 +5,7 @@ const Hiring = () => {
   return (
     <div>
     <Heading name="WE ARE HIRING"/>
-    <section className='bg-white w-full h-auto xl:flex xl:justify-around sm:grid sm:grid-cols-1'>
+    <section className='bg-white w-full h-auto xl:flex xl:justify-around sm:grid sm:grid-cols-1 md:grid-cols-2 '>
       <img src="/image copy 29.png" alt="" className='xl:w-[650px] xl:h-[650px] ps-10 pt-20 w-[400px] h-[400px]'/>
       <div className='text-[#d97f61] xl:text-6xl font-bold p-20 xl:leading-20 xl:pt-40 tracking-wide text-2xl'>"Ready to make your
 mark in construction?
@@ -14,7 +14,7 @@ let’s build together!"</div>
     </section>
     <Heading name="OPENING POSITIONS"/>
     <section className='bg-white h-auto w-full'>
-    <div className='xl:flex xl:justify-around xl:pt-20 sm:grid sm:grid-cols-1 p-30'>
+    <div className='xl:flex xl:justify-around xl:pt-20 sm:grid sm:grid-cols-1 p-30 md:grid-cols-2'>
       <div className='w-[280px] h-[400px] '>
         <img src="/image copy 30.png" alt="" className='w-' />
         <hr className='border-dashed mt-5'/>
@@ -92,13 +92,13 @@ let’s build together!"</div>
     </div>
      <div className='xl:flex xl:gap-50 mt-10 grid sm:grid-cols-1 md:grid-cols-2'>
       <input type="text" placeholder='Email' className='xl:w-1/4 text-gray-600 px-5 border-[1px] border-gray-500 h-10 rounded-sm w-full m-2 ' />
-      <textarea name="" id="" placeholder='Message' className='xl:w-1/2 text-gray-600 px-5 border-[1px] border-gray-500 h-30 rounded-sm w-full m-2' ></textarea>     
+      <textarea name="" id="" placeholder='Message' className='xl:w-1/2 text-gray-600 px-5 border-[1px] border-gray-500 h-30 rounded-sm w-full m-2 md:ms-10' ></textarea>     
     </div>
       <div className='text-3xl mt-5'>Education</div>
     <div className='xl:flex xl:gap-50 mt-10 grid sm:grid-cols-1 md:grid-cols-2'>
     
       <input type="text" placeholder='Qualification' className='xl:w-1/2 text-gray-600 px-5 border-[1px] border-gray-500 h-10 rounded-sm w-full m-2' />
-       <input type="text" placeholder='Year of Passout' className='xl:w-1/2 text-gray-600 px-5 border-[1px] border-gray-500 h-10 rounded-sm w-full m-2' />
+       <input type="text" placeholder='Year of Passout' className='xl:w-1/2 text-gray-600 px-5 border-[1px] border-gray-500 h-10 rounded-sm w-full m-2 md:ms-10' />
         <input type="text" placeholder='Stream' className='xl:w-1/2 text-gray-600 px-5 border-[1px] border-gray-500 h-10 rounded-sm w-full m-2' />
     </div>
     <div className='text-3xl mt-5'>Apply For</div>
@@ -110,7 +110,7 @@ let’s build together!"</div>
         <option value="2">Q</option>
         <option value="3">W</option>
       </select>
-      <div className='flex  m-2'>
+      <div className='flex  m-2 md:ms-10'>
       <div className='w-200px h-10 bg-gray-500 text-white/80 p-1 rounded-l-sm' >Upload</div>  <input type="file" placeholder='Stream' className=' text-gray-600 px-5 border-[1px] border-gray-500 h-10 rounded-sm border-l-0' /></div>
     </div>
     <div className='text-center'>

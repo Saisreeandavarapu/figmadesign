@@ -7,7 +7,7 @@ const Services = () => {
      
     <div className='bg-white w-full  sm:h-auto h-auto '>
         
-    <div className='grid lg:grid-cols-3 sm:grid-cols-1  '>
+    <div className='grid lg:grid-cols-3 sm:grid-cols-1  md:grid-cols-3'>
         <div className='w-[250px] h-[340px]  border-2 rounded-xl border-gray-400 relative m-20 mx-auto'>
             <img src="image.png" alt="" />
             <div className='bg-[#def1ff] text-center font-medium text-lg p-1'>
@@ -42,7 +42,7 @@ const Services = () => {
             <div className='w-[150px] h-[30px] bg-[#1d3a76] rounded-md text-white text-center absolute top-[95%] right-[20%]'>View more</div>
         </div>
     </div>
-    <div className='grid lg:grid-cols-3  sm:grid-cols-1 sm:gap-10 '>
+    <div className='grid lg:grid-cols-3  sm:grid-cols-1 sm:gap-10 md:grid-cols-3'>
         <div className='w-[250px] h-[340px] border-2 rounded-xl border-gray-400 relative m-20 mx-auto'>
             <img src="image copy 3.png" alt="" />
             <div className='bg-[#def1ff] text-center font-medium text-lg p-1'>
